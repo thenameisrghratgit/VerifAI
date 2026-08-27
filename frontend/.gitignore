@@ -1,0 +1,27 @@
+node_modules/
+dist/
+build/
+.cache/
+.env*
+.vite/
+vite.config.*.timestamp-*
+*.tsbuildinfo
+*-debug.log*
+logs/
+*.log
+.claude-replay.*
+.tmp-*
+
+# ─── Figma Make workspace files ──────────────────────────────────────────────
+.figma/
+.figma-make/
+
+# ─── AI / Agent tool files (not project source) ──────────────────────────────
+AGENTS.md
+CLAUDE.md
+.mise.toml
+/.plugins/
+/.opencode-skills/
+
+# ─── Scratch / pasted import dumps (design references, not source) ────────────
+src/imports/
