@@ -216,3 +216,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+venv/
+__pycache__/
+uploads/
+firebase-service-account.json
+*.pth *.pt *.safetensors
+
+# AI / ML Models
+models/
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+*.safetensors
+*.bin
+*.ckpt
+*.weights
+*.tflite
+*.pb
+
+# Model caches / outputs
+model_cache/
+model_outputs/
+checkpoints/
